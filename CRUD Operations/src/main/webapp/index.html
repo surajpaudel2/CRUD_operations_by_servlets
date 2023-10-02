@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Basic CRUD Operations</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: crimson;
+      padding: 2rem;
+    }
+    header h1 {
+      color: white;
+    }
+    main {
+      height: 76vh;
+    }
+    footer {
+      background-color: rgb(50, 50, 133);
+      color: white;
+      padding: 2rem;
+    }
+    .menu {
+      background-color: rgb(19, 1, 36);
+      padding: 2rem;
+    }
+    ul a {
+      color: white;
+      font-size: 2rem;
+      line-height: 5rem;
+    }
+    main {
+      display: grid;
+      grid-template-columns: 0.4fr 1fr;
+    }
+    .component-container {
+      background-color: rgb(36, 36, 29);
+    }
+  </style>
+</head>
+<body>
+	<header>
+    <marquee><h1>CRUD Operations By Using MVC Architecture</h1></marquee>
+  </header>
+  <main>
+    <div class="menu">
+      <ul>
+        <li><a href="./addstudent.do" target="container">Add Student</a></li>
+        <li><a href="./deletestudent.do" target="container">Delete Student</a></li>
+        <li><a href="./editstudent.do" target="container">Edit Student</a></li>
+        <li><a href="./searchstudent.do" target="container">Search Student</a></li>
+        <li><a href="./allstudents.do" target="container">See All Students</a></li>
+      </ul>
+    </div>
+    <div class="component-container">
+      <iframe src="./welcome.html" frameborder="0" width="100%" name="container" height="100%"></iframe>
+    </div>
+  </main>
+  <footer>
+   <marquee direction="right"> <h2>303 02 Keats Avenue, Rockdale, NSW, 2216</h2></marquee>
+  </footer>
+</body>
+</html>

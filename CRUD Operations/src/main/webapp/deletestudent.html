@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Delete Student</title>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  form {
+    width: fit-content;
+    margin: auto;
+    color: white;
+  }
+  form input {
+    padding: 1rem;
+  }
+</style>
+</head>
+<body>
+  <form method="post" action="./delete.do">
+    <label for="delete">Enter Student Id</label> <br>
+    <input type="text" id="delete" name="student_id">
+    <br><br>
+    <input type="submit" value="Delete">
+  </form>
+</body>
+</html>

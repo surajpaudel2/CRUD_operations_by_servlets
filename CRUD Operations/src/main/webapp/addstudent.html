@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Student</title>
+  <style>
+    body {
+      width: fit-content;
+      padding: 3rem;
+      margin: auto;
+      color: white;
+    }
+    input {
+      padding: 1rem;
+    }
+    input[type="text"], input[type="date"] {
+      width: 300px;
+      padding: 1rem;
+    }
+    tr {
+      padding: 3rem;
+    }
+  </style>
+</head>
+<body>
+  <h2>Fill up the below form to add student</h2>
+  <form action="./add.do" method="post">
+    <table>
+      <tr>
+        <th>Enter Student Id : </th>
+        <td><input type="text" name="student_id"></td>
+      </tr>
+      <tr>
+        <th>Enter Full Name</th>
+        <td><input type="text" name="student_name"></td>
+      </tr>
+      <tr>
+        <th>Enter Date of Birth</th>
+        <td><input type="date" name="student_dob"></td>
+      </tr>
+      <tr>
+        <th>Enter Address</th>
+        <td><input type="text" name="student_address"></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><input type="submit" value="Register"></td>
+      </tr>
+    </table>
+  </form>
+</body>
+</html>
